@@ -31,10 +31,11 @@
   src: url(/css/font/Montserrat-SemiBold.woff2);
 }
 
+html,body {
+  scroll-behavior: smooth;
+}
 
 header {
-
-
   background: url(../image/team.png) no-repeat;
   background-size: cover;
   padding: 0px 30px 270px 30px;
