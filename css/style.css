@@ -382,40 +382,13 @@ header {
 
 }
 
-.dev-l {
+.item {
   display: flex;
+  justify-content: center;
   align-items: center;
-  gap: 17px;
+  gap: 20px;
 }
 
-.dev-l h4 {
-
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 36px;
-  line-height: 53px;
-  color: #000000;
-
-}
-
-.dev-row p {
-
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 25px;
-  color: #999999;
-
-}
-
-.dev-row {
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-  margin-top: 70px;
-}
 
 .dev__box {
   display: flex;
@@ -426,13 +399,35 @@ header {
 
 }
 
+
+.number_wrap p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: #999999;
+}
+
+.number, .number1, .number2, .number3, .number4 {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 53px;
+  color: #000000;
+
+}
+
 .first-box {
 
   margin: auto;
   width: 100%;
   position: absolute;
   height: 490px;
-
   background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;
   padding: 80px 0 0 0;
 }
@@ -455,10 +450,7 @@ header {
   justify-content: space-between;
   margin-top: 100px;
   margin-right: 100px;
-
-
 }
-
 
 .button-box button {
   width: 200px;
@@ -484,7 +476,6 @@ header {
   box-shadow: 10px 10px 10px 0px rgba(34, 60, 80, 0.2);
 
 }
-
 
 .button-box a button:hover {
   background-color: #E5E5E5;
